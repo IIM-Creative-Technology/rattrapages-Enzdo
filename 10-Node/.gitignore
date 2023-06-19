@@ -1,0 +1,73 @@
+# Fichiers générés par les compilateurs et les IDE
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+
+# Fichiers de dépendances générés par les gestionnaires de paquets
+/node_modules
+node_modules
+/bower_components
+
+# Fichiers de configuration spécifiques à certains IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Fichiers de sauvegarde automatique
+*~
+
+# Fichiers d'environnement
+.env
+.env.*
+
+# Fichiers de build
+/build
+/dist
+
+# Dossiers spécifiques à certains langages/plateformes
+/target/
+/.venv/
+/.gradle/
+/.pytest_cache/
+
+# Fichiers de logs
+*.log
+
+# Fichiers de sauvegarde
+*.bak
+*.swp
+
+# Fichiers d'authentification et de configuration sensibles
+config.json
+credentials.json
+
+# Fichiers de cache
+.cache/
+
+# Fichiers de documentation générés
+/docs/api
+/docs/build
+
+# Fichiers de sauvegarde pour les éditeurs de texte
+*.backup
+*.bak
+*.tmp
+
+# Fichiers de test
+/test
+
+# Fichiers de données
+/data
+
+# Dossiers de sortie de génération de code
+/generated
+
+# Fichiers temporaires
+.temp/
+.tmp/

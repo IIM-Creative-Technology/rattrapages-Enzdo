@@ -1,0 +1,14 @@
+{
+  "name": "node-express-api",
+  "version": "1.0.0",
+  "description": "Création d'une api avec node et express sur la chaine de restaurant Mongoo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Enzo Deniau",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
