@@ -1,4 +1,4 @@
-const { MongoClient, Db } = require("mongodb");
+const { MongoClient } = require("mongodb");
 let client = null;
 
 function connect(url, callback) {
@@ -8,14 +8,18 @@ function connect(url, callback) {
       if (err) {
         client = null;
         callback(err);
-      } else {callback();}
+      } else {
+        callback();
+      }
     });
-  } else {callback();}
+  } else {
+    callback();
+  }
 }
 
 function database() {
-  var database = new Db(client, "dbApiMoogoo");
-  return database;
+  var db = client.db("dbApiMoogoo"); 
+  return db;
 }
 
 function close() {

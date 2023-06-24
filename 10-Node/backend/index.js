@@ -7,7 +7,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
-app.use("/moogooapi", routerrestaurants);
+app.use("/dbApiMoogoo", routerrestaurants);
 
 connect("mongodb://localhost:27017/", (erreur) => {
   if (erreur) {
