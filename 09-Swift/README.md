@@ -1,3 +1,7 @@
+# Lien vers la vidéo qui explique le code 
+
+Lien : <a href="https://youtu.be/2sP88Z_8v_s">Lien</a>
+
 # Dossier de Rattrapages - Setup SwiftUI
 
 ## Ce dossier contient les informations et les fichiers pertinents pour les rattrapages concernant la configuration de SwiftUI.
@@ -20,6 +24,3 @@ Configuration de SwiftUI :
 - Sélectionnez "Ouvrir un projet" dans le menu "Fichier" (File) de Xcode.
 - Naviguez jusqu'au répertoire où vous avez cloné le projet et sélectionnez le fichier .xcodeproj pour l'ouvrir.
 
-# Lien vers la vidéo qui explique le code 
-
-lien : <a href="">coucou</a>
