@@ -1,4 +1,4 @@
-Lien vers la video qui explique le code : <a href="">Lien</a>
+Lien vers la video qui explique le code : <a href="https://youtu.be/ERJNuC6zQoY">Lien</a>
 # README - Configuration du projet "Rattrapage Node.js - Création d'une API"
 
 ## Ce README fournit des instructions détaillées pour configurer le projet "Rattrapage Node.js - Création d'une API". 
