@@ -1,0 +1,22 @@
+Voici le petit doc qui explique les grandes parti du code :
+
+1 - Import SwiftUI et import Foundation : 
+    Ces instructions importent les modules nécessaires pour utiliser SwiftUI et Foundation.
+
+2 - struct Restaurant: Identifiable : 
+    C'est la déclaration d'une structure appelée "Restaurant" qui implémente le protocole "Identifiable". Cela signifie que chaque instance de "Restaurant" aura une identité unique.
+
+3 - let restaurants = [ ... ] : 
+    C'est la création d'une liste de restaurants. Chaque restaurant est représenté par une instance de la structure "Restaurant" avec un nom et un nom d'image spécifiques.
+
+4 - struct RestaurantBoxView: View : 
+    C'est la déclaration d'une nouvelle vue appelée "RestaurantBoxView". Cette vue affiche une image de restaurant, le nom du restaurant et applique des styles tels que la taille de l'image, la police de caractères du texte et les ombres.
+
+5 - struct MenuView: View : 
+    C'est la déclaration d'une autre vue appelée "MenuView". Cette vue affiche une liste de textes qui représentent les éléments du menu, tels que "Salade classique", "Votre composition !", "Contact" et "FAQ". Des styles tels que la police de caractères, le remplissage, la couleur du texte et la couleur de fond sont appliqués à ces éléments de menu. La propriété "isOpen" est un "Binding" qui contrôle si le menu est ouvert ou fermé. L'offset est utilisé pour déplacer horizontalement la vue du menu en fonction de la valeur de "isOpen".
+
+6 - struct ContentView: View : 
+    C'est la déclaration de la vue principale de l'application, appelée "ContentView". Elle utilise "GeometryReader" et "ZStack" pour positionner et superposer les éléments visuels. La vue principale contient un bouton avec l'image "line.horizontal.3", qui permet d'ouvrir ou de fermer le menu. Le contenu principal de l'application est affiché dans une pile verticale (VStack) qui peut être étendue pour inclure d'autres éléments.
+
+7 - ContentView_Previews: 
+    PreviewProvider : C'est la définition d'une prévisualisation de la vue ContentView. Cette prévisualisation permet de visualiser l'apparence de la vue ContentView dans l'interface de prévisualisation de Xcode.
