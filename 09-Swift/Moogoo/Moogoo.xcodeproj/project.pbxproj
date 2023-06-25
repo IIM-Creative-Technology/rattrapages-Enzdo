@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1ACD7422A47C19B00FFF2CF /* MoogooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ACD7412A47C19B00FFF2CF /* MoogooApp.swift */; };
+		A1ACD7442A47C19B00FFF2CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ACD7432A47C19B00FFF2CF /* ContentView.swift */; };
+		A1ACD7462A47C19D00FFF2CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1ACD7452A47C19D00FFF2CF /* Assets.xcassets */; };
+		A1ACD74A2A47C19D00FFF2CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1ACD7492A47C19D00FFF2CF /* Preview Assets.xcassets */; };
+		A1ACD7542A47C19D00FFF2CF /* MoogooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ACD7532A47C19D00FFF2CF /* MoogooTests.swift */; };
+		A1ACD75E2A47C19D00FFF2CF /* MoogooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ACD75D2A47C19D00FFF2CF /* MoogooUITests.swift */; };
+		A1ACD7602A47C19D00FFF2CF /* MoogooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1ACD75F2A47C19D00FFF2CF /* MoogooUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1ACD7502A47C19D00FFF2CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1ACD7362A47C19A00FFF2CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1ACD73D2A47C19B00FFF2CF;
+			remoteInfo = Moogoo;
+		};
+		A1ACD75A2A47C19D00FFF2CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1ACD7362A47C19A00FFF2CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1ACD73D2A47C19B00FFF2CF;
+			remoteInfo = Moogoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1ACD73E2A47C19B00FFF2CF /* Moogoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moogoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1ACD7412A47C19B00FFF2CF /* MoogooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoogooApp.swift; sourceTree = "<group>"; };
+		A1ACD7432A47C19B00FFF2CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1ACD7452A47C19D00FFF2CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1ACD7472A47C19D00FFF2CF /* Moogoo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Moogoo.entitlements; sourceTree = "<group>"; };
+		A1ACD7492A47C19D00FFF2CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1ACD74F2A47C19D00FFF2CF /* MoogooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoogooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1ACD7532A47C19D00FFF2CF /* MoogooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoogooTests.swift; sourceTree = "<group>"; };
+		A1ACD7592A47C19D00FFF2CF /* MoogooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoogooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1ACD75D2A47C19D00FFF2CF /* MoogooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoogooUITests.swift; sourceTree = "<group>"; };
+		A1ACD75F2A47C19D00FFF2CF /* MoogooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoogooUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1ACD73B2A47C19B00FFF2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ACD74C2A47C19D00FFF2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ACD7562A47C19D00FFF2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1ACD7352A47C19A00FFF2CF = {
+			isa = PBXGroup;
+			children = (
+				A1ACD7402A47C19B00FFF2CF /* Moogoo */,
+				A1ACD7522A47C19D00FFF2CF /* MoogooTests */,
+				A1ACD75C2A47C19D00FFF2CF /* MoogooUITests */,
+				A1ACD73F2A47C19B00FFF2CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1ACD73F2A47C19B00FFF2CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1ACD73E2A47C19B00FFF2CF /* Moogoo.app */,
+				A1ACD74F2A47C19D00FFF2CF /* MoogooTests.xctest */,
+				A1ACD7592A47C19D00FFF2CF /* MoogooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1ACD7402A47C19B00FFF2CF /* Moogoo */ = {
+			isa = PBXGroup;
+			children = (
+				A1ACD7412A47C19B00FFF2CF /* MoogooApp.swift */,
+				A1ACD7432A47C19B00FFF2CF /* ContentView.swift */,
+				A1ACD7452A47C19D00FFF2CF /* Assets.xcassets */,
+				A1ACD7472A47C19D00FFF2CF /* Moogoo.entitlements */,
+				A1ACD7482A47C19D00FFF2CF /* Preview Content */,
+			);
+			path = Moogoo;
+			sourceTree = "<group>";
+		};
+		A1ACD7482A47C19D00FFF2CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A1ACD7492A47C19D00FFF2CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1ACD7522A47C19D00FFF2CF /* MoogooTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1ACD7532A47C19D00FFF2CF /* MoogooTests.swift */,
+			);
+			path = MoogooTests;
+			sourceTree = "<group>";
+		};
+		A1ACD75C2A47C19D00FFF2CF /* MoogooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1ACD75D2A47C19D00FFF2CF /* MoogooUITests.swift */,
+				A1ACD75F2A47C19D00FFF2CF /* MoogooUITestsLaunchTests.swift */,
+			);
+			path = MoogooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1ACD73D2A47C19B00FFF2CF /* Moogoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1ACD7632A47C19D00FFF2CF /* Build configuration list for PBXNativeTarget "Moogoo" */;
+			buildPhases = (
+				A1ACD73A2A47C19B00FFF2CF /* Sources */,
+				A1ACD73B2A47C19B00FFF2CF /* Frameworks */,
+				A1ACD73C2A47C19B00FFF2CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moogoo;
+			productName = Moogoo;
+			productReference = A1ACD73E2A47C19B00FFF2CF /* Moogoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1ACD74E2A47C19D00FFF2CF /* MoogooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1ACD7662A47C19D00FFF2CF /* Build configuration list for PBXNativeTarget "MoogooTests" */;
+			buildPhases = (
+				A1ACD74B2A47C19D00FFF2CF /* Sources */,
+				A1ACD74C2A47C19D00FFF2CF /* Frameworks */,
+				A1ACD74D2A47C19D00FFF2CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1ACD7512A47C19D00FFF2CF /* PBXTargetDependency */,
+			);
+			name = MoogooTests;
+			productName = MoogooTests;
+			productReference = A1ACD74F2A47C19D00FFF2CF /* MoogooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1ACD7582A47C19D00FFF2CF /* MoogooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1ACD7692A47C19D00FFF2CF /* Build configuration list for PBXNativeTarget "MoogooUITests" */;
+			buildPhases = (
+				A1ACD7552A47C19D00FFF2CF /* Sources */,
+				A1ACD7562A47C19D00FFF2CF /* Frameworks */,
+				A1ACD7572A47C19D00FFF2CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1ACD75B2A47C19D00FFF2CF /* PBXTargetDependency */,
+			);
+			name = MoogooUITests;
+			productName = MoogooUITests;
+			productReference = A1ACD7592A47C19D00FFF2CF /* MoogooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1ACD7362A47C19A00FFF2CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A1ACD73D2A47C19B00FFF2CF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A1ACD74E2A47C19D00FFF2CF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A1ACD73D2A47C19B00FFF2CF;
+					};
+					A1ACD7582A47C19D00FFF2CF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A1ACD73D2A47C19B00FFF2CF;
+					};
+				};
+			};
+			buildConfigurationList = A1ACD7392A47C19A00FFF2CF /* Build configuration list for PBXProject "Moogoo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1ACD7352A47C19A00FFF2CF;
+			productRefGroup = A1ACD73F2A47C19B00FFF2CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1ACD73D2A47C19B00FFF2CF /* Moogoo */,
+				A1ACD74E2A47C19D00FFF2CF /* MoogooTests */,
+				A1ACD7582A47C19D00FFF2CF /* MoogooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1ACD73C2A47C19B00FFF2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ACD74A2A47C19D00FFF2CF /* Preview Assets.xcassets in Resources */,
+				A1ACD7462A47C19D00FFF2CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ACD74D2A47C19D00FFF2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ACD7572A47C19D00FFF2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1ACD73A2A47C19B00FFF2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ACD7442A47C19B00FFF2CF /* ContentView.swift in Sources */,
+				A1ACD7422A47C19B00FFF2CF /* MoogooApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ACD74B2A47C19D00FFF2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ACD7542A47C19D00FFF2CF /* MoogooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1ACD7552A47C19D00FFF2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ACD7602A47C19D00FFF2CF /* MoogooUITestsLaunchTests.swift in Sources */,
+				A1ACD75E2A47C19D00FFF2CF /* MoogooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1ACD7512A47C19D00FFF2CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1ACD73D2A47C19B00FFF2CF /* Moogoo */;
+			targetProxy = A1ACD7502A47C19D00FFF2CF /* PBXContainerItemProxy */;
+		};
+		A1ACD75B2A47C19D00FFF2CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1ACD73D2A47C19B00FFF2CF /* Moogoo */;
+			targetProxy = A1ACD75A2A47C19D00FFF2CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1ACD7612A47C19D00FFF2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1ACD7622A47C19D00FFF2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A1ACD7642A47C19D00FFF2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Moogoo/Moogoo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Moogoo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enzo.Moogoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1ACD7652A47C19D00FFF2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Moogoo/Moogoo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Moogoo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enzo.Moogoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1ACD7672A47C19D00FFF2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enzo.MoogooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moogoo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moogoo";
+			};
+			name = Debug;
+		};
+		A1ACD7682A47C19D00FFF2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enzo.MoogooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moogoo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moogoo";
+			};
+			name = Release;
+		};
+		A1ACD76A2A47C19D00FFF2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enzo.MoogooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moogoo;
+			};
+			name = Debug;
+		};
+		A1ACD76B2A47C19D00FFF2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enzo.MoogooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moogoo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1ACD7392A47C19A00FFF2CF /* Build configuration list for PBXProject "Moogoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ACD7612A47C19D00FFF2CF /* Debug */,
+				A1ACD7622A47C19D00FFF2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1ACD7632A47C19D00FFF2CF /* Build configuration list for PBXNativeTarget "Moogoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ACD7642A47C19D00FFF2CF /* Debug */,
+				A1ACD7652A47C19D00FFF2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1ACD7662A47C19D00FFF2CF /* Build configuration list for PBXNativeTarget "MoogooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ACD7672A47C19D00FFF2CF /* Debug */,
+				A1ACD7682A47C19D00FFF2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1ACD7692A47C19D00FFF2CF /* Build configuration list for PBXNativeTarget "MoogooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ACD76A2A47C19D00FFF2CF /* Debug */,
+				A1ACD76B2A47C19D00FFF2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1ACD7362A47C19A00FFF2CF /* Project object */;
+}
